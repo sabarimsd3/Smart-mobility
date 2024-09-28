@@ -1,0 +1,580 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+#top-car{
+    padding-bottom: 80px;
+}
+.top-car-viewport{
+    padding-top: 200px;
+    padding-bottom: 600px;
+    background-image: url(css/asserts/About/top\(2\).jpg);
+    background-position: 50% 40%;
+    background-size: cover;
+    transform: scale(0.9);
+}
+.bottom-bar p{
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    line-height: 43.2px;
+}
+.top-font {
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 5.12px;
+    font-weight: 400;
+    text-align: center;
+}
+.bottom-font {
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    line-height: 43.2px;
+    padding: 0px 200px 0 200px !important;
+    text-align: center;
+}
+/* --------------------About section-two-------------------- */
+#Technology-section-two{
+    background-color: black;
+    padding-bottom: 40px;
+}
+.d-flex{
+    display: flex !important;
+}
+.validate-img{
+    width: 700px;
+    height: 800px;
+    background-image: url(css/asserts/About/top-imaged-black.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.validation{
+    width: 480px;
+    height: 500px;
+}
+.fa-black-tie{
+    display: flex !important;
+    justify-content: center !important;
+    padding: 150px 0 0px 0px;
+}
+.fa-backward-fast{
+    display: flex !important;
+    justify-content: center !important;
+}
+.Autono-scroll-bar{
+    border-left: 1px solid rgba(180,180,180);
+    height: 400px;
+}
+.Autono-scroll-bar-top{
+    border-left: 3px solid rgba(255,255,255); 
+    height: 300px;
+    margin: 100px 0 0 0px;
+}
+.Autono-top-head{
+    color: rgba(255,255,255);
+    font-size: 14px;
+    letter-spacing: 2.24px;
+    padding-bottom: 20px;
+}
+.Autono-inside-content h6{
+    color: rgba(255,255,255);
+    font-size: 24px;
+    line-height: 43.2px;
+    letter-spacing: 1.92px;
+    padding: 0px 30px 0 0px;
+    font-weight: 400;
+}
+/* -------------------About-third-section------------------------- */
+#Technology-section-three{
+    background-color: black;
+}
+.technology-one{
+    justify-content: center !important;
+    padding: 0px 0px 100px 20px;
+}
+.technology-two{
+    justify-content: center !important;
+    padding: 0px 0px 100px 0px;
+}
+.human-div{
+    width: 400px;
+    height: 300px;
+}
+.text-human{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 32.4px;
+    letter-spacing: 1.44px;
+    padding: 0px 0px 30px 0px;
+}
+.text-human-black{
+    color: black;
+}
+.text-human-para-black{
+    color: black !important;
+}
+.text-human-para{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 28.8px;
+    letter-spacing: 0.64px;
+}
+.d-flex {
+    display: flex !important;
+  }
+  
+  .justify-content-start {
+    justify-content: flex-start !important;
+  }
+  
+  .justify-content-end {
+    justify-content: flex-end !important;
+  }
+/* -----------------about-section-four--------------------------- */
+#Technology-section-four{
+    padding-bottom: 40px;
+}
+.Autono-inside-content-black h6{
+    color: black !important;
+}
+.Autono-top-head-black{
+    color: black;
+}
+.validation-two{
+    width: 450px;
+    height: 400px;
+}
+.Autono-scroll-bar-four-sec{
+    border-left: 1px solid rgba(180,180,180);
+    height: 310px;
+}
+.Autono-scroll-bar-top-black{
+    border-left: 3px solid black; 
+    height: 250px;
+    margin: 60px 0 0 0px;  
+}
+.validate-img-two{
+    width: 700px;
+    height: 800px;
+    background-image: url(css/asserts/About/solar\ charging\(2\).jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.fa-black-tie-two{
+    padding: 250px 0 0px 0px !important;
+}
+.fa-black-tie:before {
+    content: "" !important;
+}
+/* ---------------------About-five--------------------- */
+#Technology-section-five{
+    border-bottom: 1px solid black;
+}
+/* ----------------------technology-footer------------------ */
+.form-infinite{
+    padding-left: 60px !important;
+}
+.form-technology-infinite{
+    padding-left: 0px !important;
+}
+.form-infinite-two{
+    padding-left: 220px !important;
+}
+.form-technology-infinite-two{
+    padding-left: 420px !important;
+}
+.form-head{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 7px;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+.form-link{
+    color: black !important;
+    padding: 0px !important;
+    padding-bottom: 35px !important;
+    letter-spacing: 0.64px !important;
+}
+.form-address {
+    display: block;
+    margin-bottom: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    text-decoration: none;
+}
+#eleventh-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.test-head-black{
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+.button-with-input {
+    display: flex;
+    align-items: center;
+}
+
+.button-with-input input[type="email"] {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 7px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.button-with-input button {
+    padding: 8px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 7px;
+    width: 28%;
+    margin-left: -10px;
+    border: 1px solid black;
+}
+.button-with-input button:disabled {
+    background-color: rgb(239, 165, 115) !important;
+}
+#email{
+    width: 65% !important;
+}
+#thankYouMessage {
+    display: none;
+    color: green;
+    margin-top: 10px;
+}
+.footer-child{
+    margin-top: 100px !important;
+   
+}
+.footer-text{
+    margin: 5px 0px 0px 10px;
+}
+.form-floating a, .boot a{
+    color: black !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
+}
+.boot span {
+    margin-top: 5px;
+    font-size: 20px;
+}
+.form-floating span{
+    font-size: 20px;
+}
+.form-floating{
+    justify-content: flex-end !important;
+    gap: 20px !important;
+}
+
+
+@media screen and (max-width: 1599px){
+.fa-black-tie{
+    padding: 150px 0 150px 0px;
+}
+.fa-backward-fast{
+    height: 800px;
+}
+.validate-img{
+    width: 700px;
+    height: 750px;
+}
+}
+@media screen and (max-width: 1399px){
+    .top-car-viewport{
+        padding-top: 80px;
+        padding-bottom: 600px;
+        transform: scale(0.8);
+    }
+    .bottom-font {
+        padding: 0px 200px 0 200px !important;
+    }
+    .Autono-inside-content h6{
+        padding: 0px 30px 0 0px;
+    }
+    .fa-backward-fast{
+        height: 780px;
+    }
+    .validate-img-two{
+        width: 700px;
+        height: 750px;
+    }
+    .fa-black-tie-two{
+        padding: 200px 0 0px 0px !important;
+    }
+
+}
+@media screen and (max-width: 1199px){
+    .top-car-viewport{
+        padding-top: 50px;
+        padding-bottom: 600px;
+        transform: scale(1.0);
+    }
+    .bottom-font {
+        font-size: 22px;
+        padding: 0px 150px 0 150px !important;
+        line-height: 41.2px;
+    }
+    .Autono-inside-content h6{
+        padding: 0px 50px 0 0px;
+    }
+    .Autono-scroll-bar{
+        margin-left: 50px !important;
+    }
+     .validation{
+        width: 550px;
+        height: 500px;
+     }
+    .fa-backward-fast{
+       height: 780px;
+    }
+    .fa-backward-fast-two{
+        height: 780px;
+    }
+    .validate-img-two{
+        height: 750px;
+    }
+    .technology-one{
+        justify-content: flex-start !important;
+        padding: 0px 0px 100px 60px;
+    }
+    .technology-two{
+        justify-content: center !important;
+        padding: 0px 0px 100px 0px;
+    }
+    .human-div{
+        width: 400px;
+        height: 300px;
+    }
+  
+}
+@media screen and (max-width: 991px){
+    .top-font {
+        font-size: 50px;
+        line-height: 76px;
+        letter-spacing: 3.12px;
+    }
+    .top-car-viewport{
+        padding-top: 150px;
+        padding-bottom: 400px;
+        transform: scale(1.0);
+    }
+    .bottom-font {
+        font-size: 18px;
+        padding: 0px 80px 0 160px !important;
+        line-height: 34.2px;
+    }
+    .Autono-scroll-bar{
+        margin-left: 30px !important;
+        height: 350px;
+    }
+    .Autono-scroll-bar-top{
+        border-left: 3px solid rgba(255,255,255);
+        height: 250px;
+        margin: 100px 0 0 0px;
+    }
+    .Autono-inside-content h6{
+        padding: 0px 20px 0 0px;
+        line-height: 36.2px;
+        font-size: 20px;
+    }
+    .fa-black-tie{
+        padding: 80px 0px 50px 0px;
+    }
+    .validation{
+        width: 430px;
+        height: 400px;
+    }
+    .validation-two{
+        width: 420px;
+        height: 400px;
+    }
+    .validate-img{
+        width: 370px;
+        height: 530px;
+    }
+    .validate-img-two{
+        width: 420px;
+        height: 530px;
+    }
+    .fa-backward-fast{
+        justify-content: flex-end !important;
+        height: 550px;
+    }
+    .fa-black-tie-two{
+        padding: 150px 0 0px 0px !important;
+    }
+    .technology-one{
+        justify-content: flex-start !important;
+        padding: 0px 0px 100px 60px;
+    }
+    .technology-two{
+        justify-content: flex-end !important;
+        padding: 0px 0px 100px 0px;
+    }
+    .human-div{
+        width: 370px;
+    }
+    .human-div-second{
+        width: 390px !important;
+    }
+    .Autono-scroll-bar-four-sec{
+        border-left: 1px solid rgba(180,180,180);
+        height: 280px;
+    }
+    .Autono-scroll-bar-top-black{
+        border-left: 3px solid black; 
+        height: 220px;
+        margin: 60px 0 0 0px;  
+    }
+ 
+}
+@media screen and (max-width: 767px){
+    .top-font {
+        font-size: 38px;
+        line-height: 56px;
+        letter-spacing: 2.12px;
+       
+    }
+    .top-car-viewport{
+        padding-top: 120px;
+        padding-bottom: 380px;
+        transform: scale(1.0);
+    }
+    .bottom-font {
+        font-size: 18px;
+        padding: 0px 20px 0 20px !important;
+        line-height: 28.2px;
+    }
+    .fa-black-tie{
+        padding: 150px 0 100px 0px;
+    }
+    .Autono-inside-content h6{
+        padding: 0px 50px 0 0px;
+        line-height: 36.2px;
+        font-size: 20px;
+    }
+   
+     .fa-black-tie-two{
+        padding: 100px 0px 0px 0px !important;
+    }
+    .validation{
+        width: 480px;
+        height: 400px;
+    }
+    .validation-two{
+        width: 480px !important;
+        height: 350px !important;
+    }
+    .validate-img{
+        width: 370px;
+        height: 530px;
+    }
+    .validate-img-two{
+        width: 400px;
+        height: 400px;
+    }
+    .fa-backward-fast{
+        justify-content: center !important;
+        height: 550px;
+    }
+    .fa-backward-fast-two{
+        height: 450px;
+    }
+    .technology-one{
+        justify-content: center !important;
+        padding: 0px 0px 50px 0px;
+    }
+    .technology-two{
+        justify-content: center !important;
+        padding: 0px 0px 50px 0px;
+    }
+    .human-div{
+        width: 400px;
+    }
+    .validation-two{
+        width: 450px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 575px){
+    .top-font {
+        font-size: 28px;
+        line-height: 39px;
+        letter-spacing: normal;
+        padding: 0px 40px 0px 40px;
+    }
+    .top-car-viewport{
+        padding-top: 0px;
+        padding-bottom: 250px;
+    }
+    .bottom-font {
+        font-size: 14px;
+        line-height: 25.4px;
+        padding: 0px 40px 0 40px !important;
+    }
+ 
+    .Autono-inside-content h6{
+        padding: 0px 10px 0 0px;
+        line-height: 32.4px;
+        font-size: 18px;
+        letter-spacing: 1.44px;
+    }
+    .text-human{
+    padding: 0px 0px 20px 0px;
+    }
+    .fa-black-tie{
+        padding: 80px 0 20px 0px;
+    }
+    .validation{
+        width: 370px;
+        height: 400px;
+    }
+    .validate-img{
+        width: 350px;
+        height: 350px;
+    }
+    .fa-backward-fast{
+        justify-content: center !important;
+        height: 380px;
+    }
+    .human-div{
+        width: 340px;
+        height: 230px;
+    }
+    .human-div-second{
+        width: 340px !important;
+        height: 230px !important;
+    }
+    .text-human-para{
+        font-size: 12px;
+        line-height: 21.8px;
+        letter-spacing: 0.48px;
+    }
+    .fa-black-tie-two{
+        padding: 60px 0px 0px 0px !important;
+    }
+    .validation{
+        width: 400px;
+        height: 400px;
+    }
+    .validation-two{
+        width: 370px !important;
+        height: 320px !important;
+    }
+    .validate-img-two{
+        width: 350px;
+        height: 320px;
+        transform: scale(0.8);
+    }   
+    .fa-backward-fast-two{
+        height: 330px !important;
+    }
+}

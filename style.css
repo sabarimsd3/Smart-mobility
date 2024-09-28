@@ -1,0 +1,1253 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+.navbar-toggler {
+    border: none; 
+    outline: none; 
+  }
+  
+  .navbar-toggler:focus, .navbar-toggler:hover {
+    outline: none; 
+    box-shadow: none; 
+  }
+  
+nav{
+    padding: 15px !important;
+}
+.btn-outline-secondary{
+    background-color: black !important;
+    color: #ffffff !important;
+    width: 120px;
+    border-radius: 8px !important;
+}
+.nav-link{
+    padding: 20px !important;
+}
+.nav-link:hover{
+    color: rgb(196, 83, 8) !important;
+}
+.navbar-brand{
+    font-size: 20px;
+    letter-spacing: 7px;
+    font-weight: 700;
+}
+#nav-container{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+}
+.btn-outline-secondary:hover{
+    background-color: #ffffff !important;
+    color: black !important;
+}
+.row{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+/* ---------------------section-2----------------- */
+#home {
+    background-image: url(css/asserts/home/c837a6_02de7d4c43d44b7b890854049ed75da8f000.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1000px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.home-text{
+    margin: -450px 0 0 0px;
+    width: 800px;
+}
+.home-text h1{
+    font-size: 64px;
+    line-height: 96px;
+    padding-bottom: 30px;
+    letter-spacing: 4.12px;
+    font-weight: 500;
+    text-align: center;
+    margin: -10px 0 0 0px;
+}
+.home-text p{
+    font-size: 24px;
+    letter-spacing: 1.2px;
+}
+/* -----------------section-3------------------ */
+.black-background-one{
+    margin: 560px 0 0 0px;
+}
+.top-img{
+    width: 100%;
+    height: 300px;
+}
+/* ------------------section-4-------------------- */
+#sec-two{
+    background-color: rgba(0,0,0);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.second-content{
+   display: flex;
+}
+.scroll-bar{
+    border-left: 1px solid rgba(180,180,180);
+    height: 430px;
+}
+.scroll-event-middle{
+    border-left: 3px solid rgba(255,255,255);
+    height: 120px;
+    margin: 100px 0 0 -0px;
+    position: relative;
+}
+.inside-content{
+    padding-left: 50px;
+}
+.texted-head{
+    color: rgba(255,255,255);
+    font-size: 14px;
+    letter-spacing: 2.24px;
+    /* font-weight: 400; */
+    padding-bottom: 30px;
+}
+.texted-headed-two{
+    color: rgba(255,255,255);
+    font-size: 24px;
+    line-height: 43.2px;
+    padding-bottom: 40px;
+    letter-spacing: 1.92px;
+}
+.texted-para{
+    color: rgba(255,255,255);
+    font-size: 16px;
+    line-height: 28.8px;
+    letter-spacing: 0.8px;
+    padding-right: 20px;
+}
+.car-covered{
+    width: 47% !important;
+    height: 390px;
+    transform: scale(1.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden !important;
+    margin: 30px 0px 0px 100px !important;
+   
+}
+.custom-margin{
+    margin-left: 100px;
+}
+/* ----------------section-5-------------------- */
+.blacked-content{
+    border-left-style: none;
+    padding-bottom: 100px;
+}
+#sec-three{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.texted-head-black{
+    color: rgb(0, 0, 0);
+}
+.texted-headed-black-two{
+    color: rgb(0, 0, 0);
+    padding-bottom: 0px !important;
+}
+.side-bar{
+    height: 180px;
+    border-left: 1px solid rgb(112, 112, 112);
+}
+.scroll-event-middle-two{
+    border-left: 3px solid rgba(0,0,0);
+    height: 130px;
+    margin: 50px 0 0 -0px;
+}
+.scroll-event-middle-two {
+    overflow-y: hidden !important; 
+}
+/* --------------section-6--------------- */
+.autonomous-driving{
+    padding: 100px;
+    padding-left: 140px !important;
+}
+.car-autonomous{
+    padding: 100px;
+}
+.heading-drive{
+    font-size: 40px;
+    line-height: 60px;
+    padding-bottom: 20px;
+}
+.para-drive{
+    font-size: 16px;
+    line-height: 28.8px;
+    letter-spacing: 0.8px;
+    padding-bottom: 30px;
+}
+.button-link, .button-link-one {
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+.button-link {
+    padding: 10px; 
+    color: rgb(0, 0, 0);
+    line-height: 22.4px;
+    text-decoration: none;
+    text-align: center;
+    width: 34%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.button-link:hover{
+    background-color: black;
+    color: #ffffff;
+}
+.button-link-white:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.button-link-one {
+    padding: 8px; 
+    width: 11%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.button-link-one span {
+    margin: 6px 0 0 0px;
+    text-align: center !important;
+}
+.button-link-one span i {
+    color: rgb(0, 0, 0);
+    font-size: 20px; 
+}
+.car-autonomous{
+    background-image: url(css/asserts/home/car-imaged-one.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover !important;
+    height: 700px;
+    background-position: 0% 50%;
+}
+.container-md{
+    max-width: 100% !important;
+}
+/* -----------section-7---------------- */
+#fifth-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.speedo-meter{
+    background-image: url(css/asserts/home/speedo-meter-one.jpg);
+    background-size: cover;
+    height: 650px;
+    background-position: center;
+    background-position: cover !important;
+    transform: scale(0.8);
+    margin: 0 0 0 -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modify-head{
+    margin-top: 80px !important;
+}
+.mid-event{
+    width: 40px !important;
+}
+/* ----------section-8----------------- */
+#sixth-section{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.car-autonomous-one{
+    padding: 0px;
+}
+.car-autonomous-one{
+    background-image: url(css/asserts/home/ring-car.jpg);
+}
+
+
+/* ---------------section-9--------------- */
+#seventh-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(css/asserts/home/roboat.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.side-scroll-bar-three{
+    border-left: 0.1px solid rgba(255,255,255);
+    height: 570px;
+    margin: 0px 0 0 18px;
+}
+.content{
+    width: 500px !important;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 40px 0px 40px 0px;
+}
+.side-scroll-bar-three-top{
+    width: 0px;
+    border: 1.5px solid rgba(255,255,255);
+    height: 130px;
+    margin: 80px 0 0 0px;
+}
+.button-link-white, .button-link-one-white{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.custom-arrow-color {
+    color: white !important;
+}
+.inside-content-three{
+    padding-left: 46px;
+}
+.texted-para-two{
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+/* ---------------section-10----------------- */
+#Eigth-section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.armed-content {
+    padding: 250px;
+    background-image: url(css/asserts/home/arm-laptop.webp);
+    background-size: cover; 
+    background-position: center; 
+}
+.upper-div, .lower-div{
+    padding-top: 50px;
+    
+}
+.bars-para{
+    font-size: 40px;
+    letter-spacing: 3.2px;
+}
+.numbers{
+    padding-left: 40px !important;
+}
+.horizontal{
+    width: 180px !important;
+}
+.top-bar {
+    transform: translateX(150px);
+    transition: transform 2s; 
+}
+.top-bar.active {
+    transform: translateX(-0px); 
+}
+/* ----------section-11-------------- */
+#nineth-section{
+    background-color: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgb(112, 112, 112);
+}
+.second-content-line{
+    border-left: 1px solid rgba(180,180,180);
+    height: 450px !important;
+}
+.scroll-event-middle-three{
+    border-left: 3px solid rgba(255,255,255);
+    height: 80px;
+    margin: 100px 0 0 0px;
+    position: relative; 
+}
+.upper-div-one, .lower-div-one{
+    padding-top: 0px;
+}
+.lower-div-one{
+    padding-top: 20px;
+}
+.texted-md{
+    text-align: center !important;
+}
+.numbers-one{
+    margin: 0px 0px 0px 80px !important;
+}
+.texted-para-three{
+    padding-right: 40px;
+}
+.drive{
+    margin: 0px 0px 0px 80px;
+}
+.texted-md{
+    padding-top: 20px;
+}
+.upper-div-one .texted-md{
+    padding-top: 0px;
+}
+/* -----------section-12-------------- */
+#tenth-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(0, 0, 0);
+}
+.modified-second-content-line{
+    border-left: 1px solid rgba(180,180,180);
+    height: 330px !important;
+}
+
+.scroll-event-middle-four{
+    border-left: 2px solid rgba(255,255,255);
+    height: 180px;
+    margin: 50px 0 0 0px;
+    position: relative; 
+}
+.texted-headed-three{
+    padding-bottom: 60px;
+}
+.testimonial{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fa-rebel{
+    display: flex;
+    align-items: center;
+}
+ .venkat{
+    display: flex;
+    justify-content: center;
+}
+.mnp{
+    width: 65%;
+    border: 1.5px solid rgba(255,255,255);
+    height: 600px; 
+    border-radius: 20px;
+    padding: 60px 10px 0px 40px;
+}
+.test-head{
+    font-size: 18px;
+    color: rgba(255,255,255);
+    line-height: 32.4px;
+    letter-spacing: 1.44px;
+    padding-bottom: 50px;
+}
+.test-head-two{
+    font-size: 14px;
+    color: rgba(255,255,255);
+    line-height: 25.2px;
+    letter-spacing: 1.12px;
+    padding-bottom: 20px;
+} 
+.texted-para-three{
+    padding-bottom: 20px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
+/* ------------section-13---------- */
+.form-infinite{
+    padding-left: 60px !important;
+}
+.form-infinite-two{
+    padding-left: 220px !important;
+}
+.form-head{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 7px;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+.form-link{
+    color: black !important;
+    padding: 0px !important;
+    padding-bottom: 35px !important;
+    letter-spacing: 0.64px !important;
+}
+.form-address {
+    display: block;
+    margin-bottom: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    text-decoration: none;
+}
+#eleventh-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.test-head-black{
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+.button-with-input {
+    display: flex;
+    align-items: center;
+}
+
+.button-with-input input[type="email"] {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 7px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.button-with-input button {
+    padding: 8px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 7px;
+    width: 28%;
+    margin-left: -10px;
+    border: 1px solid black;
+}
+.button-with-input button:disabled {
+    background-color: rgb(239, 165, 115) !important;
+}
+#email{
+    width: 65% !important;
+}
+#thankYouMessage {
+    display: none;
+    color: green;
+    margin-top: 10px;
+}
+.footer-child{
+    margin-top: 100px !important;
+   
+}
+.form-floating a, .boot a{
+    color: black !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
+}
+.boot span {
+    margin-top: 5px;
+    font-size: 20px;
+}
+.form-floating span{
+    font-size: 20px;
+}
+.form-floating{
+    justify-content: flex-end !important;
+    gap: 20px !important;
+}
+
+
+@media screen and (max-width: 1399px){
+    .car-covered{
+        width: 38% !important;
+        height: 250px;
+        transform: scale(1.7);
+        margin: 110px 0px 0px 60px !important;
+    }
+    .custom-margin{
+        margin-left: 160px !important;
+    }
+    .modify-head{
+        margin-top: 100px !important;
+    }
+    .texted-para-three{
+        padding-right: 0px;
+    }
+    .drive{
+        margin: 0px 0px 0px 80px;
+    }
+    .numbers-one{
+        margin: 0px 0px 0px 80px !important;
+    }
+    .second-content-line{
+        border-left: 1px solid rgba(180,180,180);
+        height: 470px !important;
+    }
+    .mnp{
+        width: 75%;
+        padding: 60px 30px 0px 40px;
+    }
+    .testimonial{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .scroll-event-middle-four{
+        border-left: 2px solid rgba(255,255,255);
+        height: 200px;
+        margin: 20px 0 0 0px;
+        position: relative; 
+    }
+    .form-infinite-two{
+        padding-left: 120px !important;
+    }
+    .button-container {
+        display: flex;
+        width: 38%;
+        justify-content: center; 
+        flex-wrap: nowrap; 
+        box-sizing: border-box; 
+    } 
+}
+
+@media screen and (max-width: 1199px) {
+    #nav-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #home {
+        height: 1100px;
+        position: absolute; 
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .black-background-one{
+        margin: 700px 0 0 0px;
+        position: relative;
+    }
+    .custom-margin{
+        margin-left: 0px;
+    }
+    .inside-content{
+        padding-left: 50px;
+    }
+    .car-covered{
+        width: 39% !important;
+        height: 250px;
+        transform: scale(1.6);
+        margin: 110px 0px 0px 60px !important;
+    }
+    .second-content{
+        margin: 0 0 0 0px;
+    }
+    .autonomous-driving{
+        padding: 100px;
+        padding-left: 50px !important;
+    }
+    .container-md {
+        max-width: calc(90% + 20px) !important;
+    }
+    .container-md-fullarm {
+        max-width: calc(100% + 20px) !important;
+    }
+    .speedo-meter{
+        transform: scale(1.0);
+        margin: 0 0 0 -0px;
+    }
+    .speedo-meter{
+        background-image: url(css/asserts/home/speedo-meter-three.jpg);
+        height: 550px;
+        transform: scale(1.0);
+        margin: 0 0 0 -0px;
+    }
+    .modify-head{
+        margin-top: 40px !important;
+    }
+    .mid-event{
+        width: 0px !important;
+    }
+    .speedo-meter{
+        margin: 0 0 0 -10px !important;
+    }
+    .numbers-one{
+        margin: 0px 0px 0px 20px !important;
+    }
+    .texted-para-three{
+        padding-right: 20px;
+    }
+    .drive{
+        margin: 0px 0px 0px 50px !important;
+    }
+    .second-content-line{
+        height: 420px !important;
+    }
+    .modified-second-content-line{
+        border-left: 1px solid rgba(180,180,180);
+        height: 300px !important;
+    }
+    .General-Transport{
+        max-width: 120px !important;
+        max-height: 120px !important;
+    }
+    .mnp{
+        width: 85%;
+        padding: 60px 20px 0px 40px;
+    }
+    .form-infinite{
+        padding-left: 0px !important;
+    }
+    .form-infinite-two{
+        padding-left: 60px !important;
+    }
+   
+   
+    
+    
+}
+@media screen and (max-width: 991px){
+    #nav-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar-light .navbar-toggler {
+        margin-left: 340px;
+        margin-right: auto;
+    } 
+    #home {
+        background-image: url(css/asserts/home/c837a6_02de7d4c43d44b7b890854049ed75da8f000.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 900px;
+        position: relative;
+    }
+    .black-background-one{
+        margin: -300px 0 0 0px;
+        position: absolute;
+    }
+    .custom-margin{
+        margin-left: 0px;
+    }
+    .inside-content{
+        padding-left: 40px;
+    }
+    .car-covered {
+        width: 41% !important;
+        height: 270px;
+        transform: scale(1.8);
+        margin: 110px 0px 0px 30px !important;
+    }
+    .second-content{
+        margin: 0 0 0 0px;
+    }
+    .texted-headed-two {
+        font-size: 20px;
+        line-height: 36.2px;
+        padding-bottom: 20px;
+    }
+    .autonomous-driving{
+        padding: 100px;
+        padding-left: 20px !important;
+    }
+    .car-autonomous{
+        background-image: url(css/asserts/home/car-imaged-one.jpg);
+        background-size: cover !important;
+        height: 700px;
+        background-position: 30% 50%;
+    }
+    .container-md {
+        max-width: calc(80% + 20px) !important;
+      }
+    .container-md-fullarm {
+        max-width: calc(100% + 20px) !important;
+    }
+   
+    .speedo-meter{
+        background-image: url(css/asserts/home/speedo-meter-three.jpg);
+        margin: 0 0 0 -0px;
+    }
+    .mid-event{
+        width: 0px !important;
+    }
+    .car-autonomous-one{
+        background-image: url(css/asserts/home/ring-car-one.jpg);
+    }
+    .content{
+        width: 460px !important;
+        padding: 40px 0px 40px 0px;
+    }
+    .side-scroll-bar-three{
+        border-left: 0.1px solid rgba(255,255,255);
+        height: 520px;
+        margin: 0px 0 0 18px;
+    }
+    .bars-para{
+        font-size: 35px;
+        letter-spacing: 2.16px;
+    }
+    .horizontal{
+        width: 180px !important;
+    }
+    .numbers-one{
+        margin: 0px 0px 0px 0px !important;
+    }
+    .texted-para-three{
+        padding-right: 0px;
+    }
+    .drive{
+        margin: 0px 0px 0px 60px !important;
+    }
+    .second-content-line{
+        height: 440px !important;
+    }
+    .General-Transport{
+        max-width: 120px !important;
+        max-height: 120px !important;
+    }
+    .upper-div-one{
+        padding-top: -50px !important;
+    }
+    .modified-second-content-line{
+        height: 270px !important;
+    }
+    .scroll-event-middle-four{
+        height: 140px;
+    }
+    .mnp{
+        width: 85%;
+        padding: 30px 10px 0px 20px;
+    }
+    .testimonial{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .form-infinite{
+        padding-left: 0px !important;
+    }
+    .form-infinite-two{
+        padding-left: 0px !important;
+    }
+    .container-od{
+       max-width:calc(86% + 20px) !important;
+    }
+    .scroll-bar{
+        border-left: 1px solid rgba(180,180,180);
+        height: 470px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #nav-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar-light .navbar-toggler {
+        margin-left: 200px;
+        margin-right: auto;
+    } 
+    #home {
+        background-image: url(css/asserts/home/c837a6_02de7d4c43d44b7b890854049ed75da8f000.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 800px;
+        position: relative;
+      }
+    .home-text h1{
+        font-size: 44px;
+        line-height: 76px;
+        letter-spacing: 5.12px;
+        text-align: center;
+        margin: -10px 0 0 0px;
+    }
+    .home-text p{
+        font-size: 18px;
+        letter-spacing: 1.2px;
+    }
+    .black-background-one{
+        margin: -300px 0 0 0px;
+        position: absolute;
+    }
+    .car-covered {
+        width: 90% !important;
+        height: 400px;
+        transform: scale(1.0);
+        margin: 110px 0px 0px 30px !important;
+    }
+    .custom-margin{
+        margin-left: 0px;
+    }
+    .inside-content{
+        padding-left: 50px;
+    }
+    .second-content{
+        margin: 0 0 0 50px;
+    }
+    .side-bar{
+        height: 160px;
+        border-left: 1px solid rgb(112, 112, 112);
+    }
+    .scroll-event-middle-two{
+        height: 110px;
+    }
+    .car-autonomous{
+        background-image: url(css/asserts/home/car-imaged-two.jpg);
+        background-size: cover !important;
+        height: 700px;
+        background-position: 0% 50%;
+    }
+    .container-md {
+        max-width: calc(60% + 20px) !important;
+    }
+    .speedo-meter {
+        width: 100% !important;
+        background-image: url(css/asserts/home/speedo-meter-two.jpg);
+        margin: 0 0 0 0px;
+        object-fit: cover;
+        height: 400px;
+        background-repeat: no-repeat;
+    }
+    .speedo-meter{
+        order: 2;
+    }
+    .speedo-module{
+        order: 1;
+    }
+    .car-autonomous-one{
+        width: 100% !important;
+        background-image: url(css/asserts/home/ring-car-one.jpg);
+        object-fit: cover !important;
+        background-position: center;
+        transform: scale(1.0);
+    }
+    .content{
+        width: 430px !important;
+        padding: 40px 0px 40px 0px;
+    }
+    .side-scroll-bar-three{
+        border-left: 0.1px solid rgba(255,255,255);
+        height: 520px;
+        margin: 0px 0 0 18px;
+    }
+    .armed-content {
+        padding: 200px;
+        background-image: url(css/asserts/home/full-arm.webp);
+        background-size: cover; 
+        background-position: 50% 50%; 
+        order: 2;
+    }
+    .armed-content-two{
+        order: 1;
+    }
+    .numbers-one{
+        margin: 20px 0px 0px 110px !important;
+    }jpg
+    .texted-para-three{
+        padding-right: 0px;
+    }
+    .drive{
+        margin: 0px 0px 0px 110px !important;
+    }
+    .second-content-line{
+        height: 400px !important;
+    }
+    .mnp{
+        margin-top: 50px !important;
+        width: 75%;
+        height: 550px; 
+        padding: 60px 25px 0px 40px;
+    }
+    .modified-second-content-line{
+        height: 240px !important;
+    }
+    
+    .scroll-event-middle-four{
+        height: 140px;
+        margin: 30px 0 0 0px;
+        position: relative; 
+    }
+    .testimonial{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .container-od{
+        max-width:calc(70% + 20px) !important;
+    }
+    .form-infinite-two{
+        padding-left: 20px !important;
+        margin-top: 50px !important;
+    }
+    .form-floating{
+        margin-top: 10px !important;
+        justify-content: flex-start !important;
+    }
+    .scroll-bar{
+        border-left: 1px solid rgba(180,180,180);
+        height: 400px;
+    }
+
+}
+@media screen and (max-width: 575px){
+    #nav-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar-light .navbar-toggler {
+        margin-left: auto;
+        margin-right: 10px;
+    } 
+    #home {
+        background-image: url(css/asserts/home/car-one.jpg);
+        background-size: 110% 100%; 
+        width: 100%;
+        height: 700px;
+        position: relative;
+        object-fit: cover !important;
+        background-position: 50% 50%;
+    }
+    .home-text{
+        margin: -300px 0 0 0px;
+        width: 850px;
+        padding: 30px;
+    }
+    .home-text p{
+        font-size: 14px;
+        letter-spacing: 1.2px;
+        text-align: center;
+        line-height: 25.2px;
+    }
+    .home-text h1{
+        font-size: 30px;
+        line-height: 39px;
+        text-align: center;
+        margin: -10px 0 0 0px;
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+    .black-background-one{
+        height: 300px;
+        margin: -280px 0 0 0px;
+        position: absolute;
+    }
+    .car-covered{
+        width: 100% !important;
+    }
+    .second-content{
+        margin: 0 0 0 30px;
+    }
+    .inside-content{
+        padding-left: 30px;
+    }
+    .custom-margin{
+        margin:-0px 0 0 -0px !important;
+        transform: scale(0.8);
+    }
+    #sec-two{
+        padding-bottom: 0px;
+    }
+    .side-bar{
+        height: 140px;
+        border-left: 1px solid rgb(112, 112, 112);
+    }
+    .scroll-event-middle-two{
+        height: 95px !important;
+        margin-top: 40px !important;
+    }
+    .texted-head{
+        font-size: 11px;
+        letter-spacing: 1.76px;
+        padding-bottom: 20px;
+    }
+    .texted-headed-two{
+       font-size: 18px;
+        line-height: 32.4px;
+        padding-bottom: 30px;
+        letter-spacing: 1.92px;
+    }
+    .car-autonomous {
+        width: 100% !important;
+        background-image: url(css/asserts/home/ooooo.webp);
+        object-fit: cover !important;
+        height: 360px;
+        background-repeat: no-repeat;
+        transform: scale(1.0);
+        background-position: center;
+        
+    }
+    .autonomous-driving{
+         padding: 10px !important;
+    }
+    .blacked-content{
+        border-left-style: none;
+        padding-bottom: 30px;
+    }
+    .container-md {
+        max-width: calc(75% + 20px) !important;
+    }
+    .heading-drive{
+        font-size: 21px;
+        line-height: 31.5px;
+        padding-bottom: 20px;
+    }
+    .para-drive, .texted-para{
+        font-size: 12px;
+        line-height: 21.6px;
+        letter-spacing: 0.6px;
+        padding-bottom: 0px;
+    }
+    .speedo-meter {
+        background-image: url(css/asserts/home/speedo-meter-two.jpg);
+        margin: 0 0 0 0px !important;
+        background-position: center; 
+        object-fit: cover;
+        height: 300px;
+    }
+    #fifth-section{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    #sixth-section{
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    .car-autonomous-one {
+        background-image: url(css/asserts/home/ring-car-one.jpg);
+        margin: 0 0 0 0px !important;
+        background-position: center; 
+        object-fit: cover;
+        height: 380px;
+    }
+    .content{
+        width: 350px !important;
+        padding: 40px 0px 40px 0px;
+    }
+    .side-scroll-bar-three{
+        border-left: 0.1px solid rgba(255,255,255);
+        height: 450px;
+        margin: 0px 0 0 18px;
+    }
+    .texted-para-two{
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .side-scroll-bar-three-top{
+        height: 120px;
+    }
+    .button-link-white{
+        width: 38%;
+    }
+    #seventh-section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .armed-content {
+        padding: 150px;
+        background-image: url(css/asserts/home/full-arm.webp);
+        background-size: cover; 
+        background-position: 50% 50%; 
+        order: 2;
+    }
+    .container-md-fullarm {
+        max-width: calc(100% + 20px) !important;
+    }
+    .armed-content-two{
+        order: 1;
+    }
+    .numbers{
+        padding: 0px 50px 0px 50px !important;
+    }
+    .bars-para{
+        font-size: 27px;
+        letter-spacing: 2.16px;
+    }
+    .horizontal{
+        width: 140px !important;
+    }
+    .upper-div, .lower-div{
+        padding-top: 30px;
+    }
+    .numbers-one{
+        margin: 20px 0px 0px 0px !important;
+    }
+    .texted-para-three{
+        padding-right: 0px;
+    }
+    .drive{
+        margin: 0px 0px 0px 20px !important;
+    }
+    .second-content-line{
+        height: 310px !important;
+    }
+    .General-Transport{
+        max-width: 100px !important;
+        max-height: 100px !important;
+    }
+    .lower-div-one, .upper-div-one{
+        padding-top: 10px !important;
+    }
+    .texted-md{
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 17.3px;
+    }
+    #nineth-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #Eigth-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .modified-second-content-line{
+        height: 250px !important;
+    }
+    .scroll-event-middle-four{
+        height: 120px;
+        margin: 30px 0 0 0px;
+        position: relative; 
+    }
+    .mnp{
+        margin-top: 50px !important;
+        width: 95%;
+        height: 550px; 
+        padding: 60px 25px 0px 40px;
+    }
+    #tenth-section, #eleventh-section{
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .testimonial{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .container-od{
+        max-width:calc(88% + 20px) !important;
+    }
+    #email{
+        width: 78% !important;
+    }
+    .form-floating{
+        margin-top: 10px !important;
+        justify-content: flex-start !important;
+    }
+    .footer-text{
+        margin: 5px 0px 0px 10px;
+    }
+    .scroll-bar{
+        border-left: 1px solid rgba(180,180,180);
+        height: 310px;
+    }
+    .scroll-event-middle{
+        height: 80px;
+        margin: 80px 0 0 -0px;
+    }
+    .button-container {
+        display: flex;
+        width: 50%;
+        justify-content: center; 
+        flex-wrap: nowrap; 
+        box-sizing: border-box; 
+    }
+    .button-link-one span i {
+        color: rgb(0, 0, 0);
+        font-size: 18px !important; 
+        overflow-y: hidden !important;
+    }
+    .button-link-one {
+        padding: 9px; 
+        width: 11%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .form-floating span{
+        font-size: 18px;
+    }
+    .over{
+        width: 0px !important;
+    }
+}

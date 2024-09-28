@@ -1,0 +1,511 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+/* ------------About-sec-one------------ */
+#About-a-section-one{
+    padding: 60px 0px 70px 0px;
+    border-bottom: 1px solid black;
+}
+.journey-top-font{
+    padding: 0px 0px 50px 0px;
+}
+.journey-bottom-font{
+    font-size: 24px;
+    line-height: 43.2px;
+    letter-spacing: 0.64px;
+}
+.accorden-div{
+    width: 900px;
+    padding: 0px 80px 0px 80px;
+}
+/* ------------About-sec-two------------ */
+#About-a-section-two{
+    padding: 100px 0px 100px 0px;
+    border-bottom: 1px solid black;
+}
+.way-empty-route{
+    width: 470px;
+    padding-right: 70px;
+}
+.way-scroll-bar{
+    border-left: 1px solid black;
+    height: 650px;
+}
+.way-scroll-bar-top{
+    border-left: 3px solid black;
+    height: 100px;
+    margin: 100px 0px 0px 0px;
+}
+.way-para{
+    font-size: 24px;
+    line-height: 43.2px;
+    font-weight: 400;
+    letter-spacing: 1.92px;
+    padding: 0px 0px 50px 0px;
+}
+.professional-executive{
+    background-image: url(css/asserts/Technology/GettyImages-932691626.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 400px;
+    height: 616px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+/* ----------------About-section-three-------------- */
+.slide-diver{
+    width: 1000px;
+    padding: 0px 0px 0px 0px;
+}
+.slide-diver-two{
+    width: 1100px;
+    padding: 0px 0px 0px 0px;
+    justify-content: end;
+}
+.first-journey-div{
+    width: 700px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#About-a-section-three{
+    padding: 100px 0px 100px 0px;
+}
+.journey{
+    justify-content: start;
+}
+.west {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% -280px);
+    margin: 20px 0;
+    padding: 30px 0px 30px 0px;
+}
+.arrow {
+    font-size: 24px;
+    color: black;
+}
+.slide-container{
+    width: 30px;
+    border: 3px solid black;
+    justify-content: start;
+}
+.slide-container-two{
+    width: 30px;
+    border: 3px solid black;
+    justify-content: end;
+}
+.line-container {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    margin: 0 10px;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid black;
+}
+.year-num{
+    color: #E15F09;
+    font-size: 40px;
+    letter-spacing: 3.2px;
+}
+.year-num::after{
+    content: '';
+    display: block;
+    width: 95px;
+    height: 1px;
+    background: black;
+}
+.founded{
+    margin-top: -10px !important;
+}
+.scroll-mid, .scroll-end{
+    width: 30px;
+    border: 4px solid black;
+}
+/* ---------------about-sec-four-------------------- */
+#About-a-sec-four {
+    width: 100%;
+    height: 1000px;
+    background-image: url('css/asserts/Technology/gd-pc-view.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+  }
+/* ---------------about-sec-five--------------------- */
+#About-a-sec-five{
+    padding: 120px 0px 120px 0px;
+    background-color: black;
+}
+.press{
+    width: 440px;
+}
+.media-scroll-bar{
+    border-left: 1px solid rgb(180, 180, 180);
+    height: 100px;
+}
+.media-scroll-bar-top{
+    border-left: 3px solid white;
+    height: 50px;
+    margin: 50px 0px 0px 0px;
+}
+.press-sector{
+    padding: 0px 100px 0px 230px;
+    flex-wrap: nowrap;
+}
+.imbuilder-sector{
+    width: 200px;
+    height: 200px;
+}
+.flex-one{
+    width: 130px;
+    height: 50px;
+}
+.flex-two{
+    width: 150px !important;
+    height: 30px !important;
+}
+.flex-five{
+    width: 150px !important;
+    height: 20px !important;
+}
+.flex-three{
+    width: 150px !important;
+    height: 30px !important;
+}
+.flex-four{
+    width: 150px !important;
+    height: 80px !important;
+}
+.footer-modified-text{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 7px;
+    font-weight: 700;
+}
+/* ----------------About-a-footer--------------- */
+#About-a-sec-footer{
+    padding: 100px 0px 100px 0px;
+}
+.head-footer-about{
+    width: 400px;
+}
+.head-name{
+    width: 150px;
+}
+.head-description{
+    width: 250px;
+}
+.design-content{
+    width: 400px;
+}
+.footer-text{
+    margin: -25px 0px 0px 10px !important;
+}
+.final-content{
+    padding: 100px 0px 0px 0px;
+}
+.design-content-two{
+    width: 230px;
+}
+.design-content-two a{
+    color: black;
+    font-size: 18px;
+    padding-left: 25px;
+}
+.social-icon-media {
+    order: 1 !important;
+    justify-content: end !important;
+}
+@media screen and (max-width: 1399px){
+    #About-a-sec-four{
+    width: 100%;
+    height: 800px;
+    background-image: url(css/asserts/Technology/gd-lap-view.jpg);
+    }
+    .press-sector{
+    padding: 30px 80px 0px 120px;
+    }
+   
+}
+@media screen and (max-width: 1199px){
+    #About-a-sec-four{
+        width: 100%;
+        height: 800px;
+        background-image: url(css/asserts/Technology/gd-lap-view.jpg);
+     }
+    .press-sector{
+        padding: 30px 70px 0px 100px;
+    }
+    .imbuilder-sector{
+        width: 150px;
+    }
+    
+}
+@media screen and (max-width: 991px){
+.journey-bottom-font{
+    font-size: 18px;
+    line-height: 34.2px;
+    letter-spacing: 0.64px;
+}
+.accorden-div{
+    width: 900px;
+    padding: 0px 60px 0px 60px;
+}
+.way-scroll-bar{
+    height: 600px;
+}
+.way-empty-route{
+    width: 380px;
+    padding-right: 0px;
+}
+.way-para{
+    padding: 0px 0px 10px 0px;
+}
+.professional-executive{
+    width: 400px;
+    height: 580px;
+}
+.tech-bottom{
+    padding-bottom: 10px !important;
+}
+#About-a-sec-four{
+    background-attachment: scroll;
+ }
+ .press-sector{
+    width: 800px !important;
+    padding: 0px 0px 0px 0px;
+   flex-wrap: wrap !important;
+}
+.flex-one, .flex-two, .flex-three, .flex-four, .flex-five{
+    width: 100px !important;
+}
+
+}
+@media screen and (max-width: 767px){
+    .journey-top-font{
+        padding: 0px 0px 30px 0px;
+    }
+    .journey-bottom-font{
+        font-size: 18px;
+        line-height: 28.2px;
+        letter-spacing: 0.64px;
+    }
+    .accorden-div{
+        width: 1500px !important;
+        padding: 0px 10px 0px 10px;
+    }
+    .wrap-tech{
+        order: 2 !important;
+    }
+    .wrap-tech-two{
+        order: 1 !important;
+    }
+    .professional-executive{
+        width: 400px;
+        height: 616px;
+    }
+    .wrap-tech{
+       padding-top: 80px !important;
+    }
+    .first-journey-div{
+        width: 500px;
+        padding: 20px 30px 20px 30px;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+    .slide-diver-two{
+        justify-content: space-around !important;
+    }
+    #About-a-sec-four{
+        width: 100%;
+        height: 700px;
+        background-image: url(css/asserts/Technology/gd-mobile-view.jpg);
+     }
+     .press-sector{
+        width: 600px !important;
+        padding: 0px 50px 0px 50px;
+        flex-wrap: wrap;
+    }
+    .imbuilder-sector{
+        width: 200px;
+    }
+    .social-icon-media{
+        order: 1 !important;
+        justify-content: center !important;
+    }
+    .footer-design{
+        order: 2 !important;
+    }
+    .design-content-two{
+        width: 400px;
+        padding-bottom: 10px;
+    }
+    .press{
+        width: 500px !important;
+    }
+    .imbuilder-sector{
+        width: 130px !important;
+    }
+    .head-footer-about{
+        width: 450px;
+    }
+    .head-name{
+        width: 175px;
+    }
+    .head-description{
+        width: 275px;
+    }
+    .singin-form{
+        width: 450px !important;
+    }
+    .design-content{
+        width: 450px;
+    }
+    .design-content-two{
+        width: 500px;
+    }
+    .flex-one, .flex-two, .flex-three, .flex-four, .flex-five{
+        width: 130px !important;
+    }
+}
+@media screen and (max-width: 575px){
+    .journey-top-font{
+        padding: 0px 0px 30px 0px !important;
+    }
+    .journey-bottom-font{
+        font-size: 14px;
+        line-height: 25.2px;
+        letter-spacing: 0.56px;
+    }
+    .accorden-div{
+        padding: 0px 50px 0px 50px;
+    }
+    #About-a-section-one{
+        padding: 40px 0px 40px 0px;
+    }
+    .professional-executive{
+        width: 300px !important;
+        height: 416px !important;
+    }
+    #About-a-section-two{
+        padding: 40px 0px 40px 0px;
+    }
+    .img-fluid{
+        position: static;
+    }
+    .way-scroll-bar{
+        border-left: 1px solid black;
+        height: 480px;
+    }
+    .way-scroll-bar-top{
+        border-left: 5px solid black;
+        height: 100px;
+        margin: 100px 0px 0px 0px;
+    }
+    .way-empty-route{
+        /* border: 1px solid red; */
+        width: 330px !important;
+        padding-right: 20px;
+    }
+    .way-scroll-bar-top{
+        padding-left: 25px !important;
+    }
+    .way-scroll-bar-top{
+        border-left: 3px solid black;
+        height: 70px;
+        margin: 60px 0px 0px 0px;
+    }
+    .wrap-tech{
+        padding-top: 50px !important;
+     }
+     .way-para{
+        font-size: 18px;
+        line-height: 32.4px;
+        font-weight: 400;
+        letter-spacing: 1.42px;
+        padding: 0px 0px 30px 0px;
+    }
+    .year-num{
+        color: #E15F09;
+        font-size: 27px;
+        letter-spacing: 2.16px;
+    }
+    .year-num::after{
+        width: 65px;
+    }
+    .first-journey-div{
+        width: 300px;
+        padding: 20px 30px 20px 20px;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+    .journey{
+        justify-content: center;
+    }
+    .slide-diver-two{
+        justify-content: space-around !important;
+    }
+    #About-a-section-three{
+        padding: 40px 0px 60px 0px;
+    }
+    #About-a-sec-four{
+        width: 100%;
+        height: 400px;
+        background-image: url(css/asserts/Technology/gd-mobile-view.jpg);
+        background-size: cover!important;
+        background-position: 50% 50% !important;
+        background-attachment: scroll;
+        background-repeat: no-repeat !important;
+     }
+     .press-sector{
+        padding: 60px 10px 0px 10px;
+    }
+    .imbuilder-sector{
+        width: 160px;
+        height: 130px;
+    }
+    #About-a-sec-footer{
+        padding: 50px 0px 50px 0px;
+    }
+    .design-content-two{
+        width: 370px;
+        padding-bottom: 10px;
+    }
+    .head-footer-about{
+        width: 350px;
+    }
+    .head-name{
+        width: 125px;
+    }
+    .head-description{
+        width: 225px;
+    }
+    .singin-form{
+        width: 350px !important;
+    }
+    .design-content{
+        width: 330px;
+    }
+    #About-a-sec-five{
+        padding: 60px 0px 60px 0px;
+        background-color: black;
+    }
+    .press{
+        width: 350px !important;
+    }
+    .press-sector{
+        width: 350px !important;
+    }
+    .imbuilder-sector{
+        width: 130px !important;
+    }
+}

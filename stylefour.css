@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+/* --------------section-two---------------- */
+#career-section-two{
+    padding: 100px 0px 100px 0px;
+}
+.way-scroll-bar-side{
+    border-left: 1px solid black;
+    height: 400px !important;
+}
+.location{
+    background-image: url(css/asserts/career/locotion-top-three-img.jpg) !important;
+    background-size: cover;
+    width: 650px;
+    height: 400px;
+    border-radius: 15px;
+    border: 0px solid black;
+}
+.way-empty-route-two{
+    padding-right: 20px;
+}
+.fa-black-view{
+    padding-bottom: 0px !important;
+}
+/* -----------------section-three---------------- */
+.career-scroll-bar{
+    border-left: 1px solid rgba(180,180,180);
+    height: 480px;
+}
+.career-top-scroll-bar{
+    border-left: 3px solid rgba(255,255,255); 
+    height: 100px;
+    margin: 100px 0 0 0px;
+}
+.career-human-para{
+    padding: 60px 50px 0px 0px;
+}
+.validation-two{
+    width: 480px;
+    height: 600px !important;
+}
+.fa-back-transport{
+    display: flex;
+    justify-content: end;
+}
+.validate-img-transporent{
+    width: 900px;
+    height: 800px;
+    background-image: url(css/asserts/career/digital-transport-pc.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+#career-Technology-section-two{
+    background-color: black;
+    padding-bottom: 0px !important;
+    border-color: black;
+}
+/* ---------------section-4------------------ */
+#Technology-section-three{
+    padding: 0px 0px 0px 0px;
+    background-color: black;
+}
+.mnp-two{
+    width: 48%;
+    border: 1.5px solid gray;
+    height: 570px; 
+    border-radius: 20px;
+    padding: 60px 10px 0px 40px;
+}
+.mnp-three{
+    width: 48%;
+    border: 1.5px solid gray;
+    height: 360px; 
+    border-radius: 20px;
+    padding: 60px 50px 0px 40px;
+    background-color: #ffffff;
+}
+/* --------------section-5-------------------- */
+#Technology-section-four{
+    padding: 100px 0px 100px 0px;
+    background-color: black;
+}
+#Technology-section-five{
+    background-color: black;
+    padding: 50px 0px 200px 0px;
+}
+
+
+
+@media screen and (max-width:1799px){
+    .mnp-two{
+        width: 60%;
+        height: 580px; 
+        padding: 60px 10px 0px 40px;
+    }
+    .mnp-three{
+        width: 60%;
+        height: 360px;
+    }
+}
+
+
+
+@media screen and (max-width: 1599px){
+    .validate-img-transporent{
+        width: 800px;
+        height: 700px;
+    }
+    .mnp-two{
+        width: 60%;
+        border: 1.5px solid gray;
+        height: 580px; 
+        border-radius: 20px;
+        padding: 60px 10px 0px 40px;
+    }
+     .mnp-three{
+        width: 60%;
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 1399px){
+    .way-empty-route-two{
+        padding-right: 40px;
+    }
+    .location {
+        background-image: url(css/asserts/career/verify-two\(2\).jpg) !important;
+        width: 750px !important;
+        height: 400px;
+        background-position: 50% 50%;
+        background-size: cover;
+        transform: scale(1.1);
+    }
+    .way-scroll-bar-side{
+        height: 430px !important;
+    }
+    .mnp-two{
+        width: 67%;
+        border: 1.5px solid gray;
+        height: 550px; 
+        border-radius: 20px;
+        padding: 60px 10px 0px 40px;
+    }
+     .mnp-three{
+        width: 67%;
+        height: 370px;
+    }
+}
+@media screen and (max-width: 1199px){
+    .way-empty-route-two{
+        padding-right: 40px;
+    }
+    .location {
+        background-image: url(css/asserts/career/verify-two\(2\).jpg) !important;
+        width: 750px !important;
+        height: 400px;
+        background-position: 50% 50%;
+        background-size: cover;
+        transform: scale(1.1);
+    }
+    .way-scroll-bar-side{
+        height: 430px !important;
+    }
+    .mnp-two{
+        width: 83%;
+        border: 1.5px solid gray;
+        height: 550px; 
+        border-radius: 20px;
+        padding: 60px 10px 0px 40px;
+    }
+     .mnp-three{
+        width: 83%;
+        height: 370px;
+    }
+}
+@media screen and (max-width: 991px){
+    .location {
+        background-image: url(css/asserts/career/verify-two\(2\).jpg) !important;
+        width: 450px !important;
+        height: 400px;
+        background-position: 50% 50%;
+        background-size: cover;
+        transform: scale(1.1);
+    }
+    .way-empty-route-two{
+        padding-right: 0px;
+    }
+    .way-para-submit{
+        padding: 0px 0px 30px 0px !important;
+    }
+    .mnp-two{
+        width: 95%;
+        border: 1.5px solid gray;
+        height: 580px; 
+        border-radius: 20px;
+        padding: 60px 10px 0px 40px;
+    }
+     .mnp-three{
+        width: 95%;
+        height: 370px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .location {
+        background-image: url(css/asserts/career/location-top-mobile-view.webp) !important;
+        width: 450px !important;
+        height: 400px;
+        background-position: 50% 50%;
+        background-size: cover;
+        transform: scale(1.1);
+    }
+    .wrap-tech-three{
+        order: 1 !important;
+    }
+    .wrap-tech-four{
+        order: 2 !important;
+    }
+    .validate-img-transporent{
+        width: 600px;
+        height: 500px;
+        background-image: url(css/asserts/career/digital-transport-mobile\ view.webp);
+    }
+    .fa-black-view{
+        padding-bottom: 0px !important;
+    }
+    .mnp-two{
+        width: 60%;
+        border: 1.5px solid gray;
+        height: 580px; 
+        border-radius: 20px;
+        padding: 60px 10px 0px 40px;
+    }
+     .mnp-three{
+        width: 60%;
+        height: 370px;
+    }
+    #Technology-section-five{
+        background-color: black;
+        padding: 50px 0px 100px 0px;
+    }
+}
+@media screen and (max-width: 575px){
+    .way-scroll-bar-side{
+        height: 300px !important;
+    }
+   
+    .location {
+        background-image: url(css/asserts/career/location-top-mobile-view.webp) !important;
+        width: 450px !important;
+        height: 300px;
+       
+    }
+    #career-section-two{
+        padding: 0px 0px 0px 0px !important;
+    }
+    .career-scroll-bar{
+        border-left: 1px solid rgba(180,180,180);
+        height: 380px;
+    }
+    .career-human-para{
+        padding: 30px 30px 0px 0px;
+    }
+    .validation-two{
+        width: 480px;
+        height: 450px !important;
+    }
+    .validate-img-transporent{
+        width: 600px;
+        height: 300px;
+        background-image: url(css/asserts/career/digital-transport-mobile\ view.webp);
+    }
+    .mnp-two{
+        width: 85%;
+        border: 1.5px solid gray;
+        height: 440px; 
+        border-radius: 20px;
+        padding: 30px 10px 0px 40px;
+    }
+    #Technology-section-four{
+        padding: 0px 0px 0px 0px;
+        background-color: black;
+    }
+    #Technology-section-three{
+        padding: 40px 0px 10px 0px;
+        background-color: black;
+    }
+     .mnp-three{
+        width: 85%;
+        height: 280px;
+        padding: 60px 30px 0px 40px;
+    }
+    #Technology-section-five{
+        padding: 50px 0px 100px 0px;
+    }
+}
